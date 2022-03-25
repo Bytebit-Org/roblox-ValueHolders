@@ -1,6 +1,6 @@
 export * from "classes/LockableValueHolder";
 export * from "classes/ValueHolder";
 
-export * from "interfaces/ILockableValueHolder";
-export * from "interfaces/IReadonlyValueHolder";
-export * from "interfaces/IValueHolder";
+export { ILockableValueHolder } from "interfaces/ILockableValueHolder";
+export { IReadonlyValueHolder } from "interfaces/IReadonlyValueHolder";
+export { IValueHolder } from "interfaces/IValueHolder";
