@@ -1,4 +1,4 @@
-import { IReadonlyValueHolder } from "./IReadonlyValueHolder";
+import { IReadonlyValueHolder } from "interfaces/IReadonlyValueHolder";
 
 /**
  * Defines a writable value holder for a value of type T
