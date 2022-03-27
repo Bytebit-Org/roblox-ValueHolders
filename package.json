@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/value-holders",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module for passing any values around by sharing a pointer, as well as allowing consumers to subscribe to changes and allowing authors to hold locks on changing the value.",
   "main": "out/init.lua",
   "scripts": {
