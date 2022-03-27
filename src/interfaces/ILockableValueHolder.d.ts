@@ -25,6 +25,7 @@ export interface ILockableValueHolder<T> extends IReadonlyValueHolder<T> {
 	/**
 	 * Releases the lock
 	 * @param lockKey The lock key
+	 * @throws Throws if not given the expected lock key
 	 */
 	releaseLock(lockKey: object): void;
 
@@ -32,6 +33,7 @@ export interface ILockableValueHolder<T> extends IReadonlyValueHolder<T> {
 	 * Changes the value and fires valueChanged if the new value is not equal to the current value
 	 * @param newValue The new value
 	 * @param lockKey The lock key, if any
+	 * @throws Throws if not given the expected lock key while locked
 	 */
 	setValue(newValue: T, lockKey?: object): void;
 
@@ -46,6 +48,7 @@ export interface ILockableValueHolder<T> extends IReadonlyValueHolder<T> {
 	 * If the value is changed, then valueChanged is fired
 	 * @param updateCallback A function that takes a current value and returns a new value
 	 * @param lockKey The lock key, if any
+	 * @throws Throws if not given the expected lock key while locked
 	 */
 	updateValue(updateCallback: (currentValue: T) => T, lockKey?: object): void;
 }
