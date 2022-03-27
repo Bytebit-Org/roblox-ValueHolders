@@ -46,7 +46,7 @@ Fired when the value is changed
 
 #### Defined in
 
-[src/classes/LockableValueHolder.ts:13](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/LockableValueHolder.ts#L13)
+[src/classes/LockableValueHolder.ts:13](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/LockableValueHolder.ts#L13)
 
 ## Methods
 
@@ -67,7 +67,7 @@ Any further calls to methods on the instance will throw errors.
 
 #### Defined in
 
-[src/classes/LockableValueHolder.ts:30](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/LockableValueHolder.ts#L30)
+[src/classes/LockableValueHolder.ts:30](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/LockableValueHolder.ts#L30)
 
 ___
 
@@ -87,7 +87,7 @@ Gets the current value
 
 #### Defined in
 
-[src/classes/LockableValueHolder.ts:39](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/LockableValueHolder.ts#L39)
+[src/classes/LockableValueHolder.ts:39](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/LockableValueHolder.ts#L39)
 
 ___
 
@@ -107,7 +107,7 @@ Checks whether the value holder is locked
 
 #### Defined in
 
-[src/classes/LockableValueHolder.ts:45](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/LockableValueHolder.ts#L45)
+[src/classes/LockableValueHolder.ts:45](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/LockableValueHolder.ts#L45)
 
 ___
 
@@ -129,7 +129,7 @@ The lock key object
 
 #### Defined in
 
-[src/classes/LockableValueHolder.ts:51](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/LockableValueHolder.ts#L51)
+[src/classes/LockableValueHolder.ts:51](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/LockableValueHolder.ts#L51)
 
 ___
 
@@ -155,7 +155,7 @@ Releases the lock
 
 #### Defined in
 
-[src/classes/LockableValueHolder.ts:62](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/LockableValueHolder.ts#L62)
+[src/classes/LockableValueHolder.ts:62](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/LockableValueHolder.ts#L62)
 
 ___
 
@@ -182,7 +182,7 @@ Changes the value and fires valueChanged if the new value is not equal to the cu
 
 #### Defined in
 
-[src/classes/LockableValueHolder.ts:72](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/LockableValueHolder.ts#L72)
+[src/classes/LockableValueHolder.ts:72](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/LockableValueHolder.ts#L72)
 
 ___
 
@@ -204,7 +204,7 @@ The lock key object if successful, otherwise undefined
 
 #### Defined in
 
-[src/classes/LockableValueHolder.ts:82](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/LockableValueHolder.ts#L82)
+[src/classes/LockableValueHolder.ts:82](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/LockableValueHolder.ts#L82)
 
 ___
 
@@ -232,7 +232,7 @@ If the value is changed, then valueChanged is fired
 
 #### Defined in
 
-[src/classes/LockableValueHolder.ts:93](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/LockableValueHolder.ts#L93)
+[src/classes/LockableValueHolder.ts:93](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/LockableValueHolder.ts#L93)
 
 ___
 
@@ -259,4 +259,4 @@ ___
 
 #### Defined in
 
-[src/classes/LockableValueHolder.ts:26](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/LockableValueHolder.ts#L26)
+[src/classes/LockableValueHolder.ts:26](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/LockableValueHolder.ts#L26)

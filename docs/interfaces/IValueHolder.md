@@ -47,7 +47,7 @@ Fired when the value is changed
 
 #### Defined in
 
-[src/interfaces/IReadonlyValueHolder.d.ts:11](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/IReadonlyValueHolder.d.ts#L11)
+[src/interfaces/IReadonlyValueHolder.d.ts:11](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/IReadonlyValueHolder.d.ts#L11)
 
 ## Methods
 
@@ -68,7 +68,7 @@ Any further calls to methods on the instance will throw errors.
 
 #### Defined in
 
-[src/interfaces/IValueHolder.d.ts:11](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/IValueHolder.d.ts#L11)
+[src/interfaces/IValueHolder.d.ts:11](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/IValueHolder.d.ts#L11)
 
 ___
 
@@ -88,7 +88,7 @@ Gets the current value
 
 #### Defined in
 
-[src/interfaces/IReadonlyValueHolder.d.ts:16](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/IReadonlyValueHolder.d.ts#L16)
+[src/interfaces/IReadonlyValueHolder.d.ts:16](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/IReadonlyValueHolder.d.ts#L16)
 
 ___
 
@@ -110,7 +110,7 @@ Changes the value and fires valueChanged if the new value is not equal to the cu
 
 #### Defined in
 
-[src/interfaces/IValueHolder.d.ts:17](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/IValueHolder.d.ts#L17)
+[src/interfaces/IValueHolder.d.ts:17](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/IValueHolder.d.ts#L17)
 
 ___
 
@@ -133,4 +133,4 @@ If the value is changed, then valueChanged is fired
 
 #### Defined in
 
-[src/interfaces/IValueHolder.d.ts:24](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/IValueHolder.d.ts#L24)
+[src/interfaces/IValueHolder.d.ts:24](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/IValueHolder.d.ts#L24)

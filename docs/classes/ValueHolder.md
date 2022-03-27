@@ -42,7 +42,7 @@ Fired when the value is changed
 
 #### Defined in
 
-[src/classes/ValueHolder.ts:12](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/ValueHolder.ts#L12)
+[src/classes/ValueHolder.ts:12](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/ValueHolder.ts#L12)
 
 ## Methods
 
@@ -63,7 +63,7 @@ Any further calls to methods on the instance will throw errors.
 
 #### Defined in
 
-[src/classes/ValueHolder.ts:29](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/ValueHolder.ts#L29)
+[src/classes/ValueHolder.ts:29](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/ValueHolder.ts#L29)
 
 ___
 
@@ -83,7 +83,7 @@ Gets the current value
 
 #### Defined in
 
-[src/classes/ValueHolder.ts:39](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/ValueHolder.ts#L39)
+[src/classes/ValueHolder.ts:39](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/ValueHolder.ts#L39)
 
 ___
 
@@ -109,7 +109,7 @@ Changes the value and fires valueChanged if the new value is not equal to the cu
 
 #### Defined in
 
-[src/classes/ValueHolder.ts:45](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/ValueHolder.ts#L45)
+[src/classes/ValueHolder.ts:45](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/ValueHolder.ts#L45)
 
 ___
 
@@ -136,7 +136,7 @@ If the value is changed, then valueChanged is fired
 
 #### Defined in
 
-[src/classes/ValueHolder.ts:58](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/ValueHolder.ts#L58)
+[src/classes/ValueHolder.ts:58](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/ValueHolder.ts#L58)
 
 ___
 
@@ -163,4 +163,4 @@ ___
 
 #### Defined in
 
-[src/classes/ValueHolder.ts:25](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/classes/ValueHolder.ts#L25)
+[src/classes/ValueHolder.ts:25](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/classes/ValueHolder.ts#L25)

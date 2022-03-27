@@ -41,7 +41,7 @@ Fired when the value is changed
 
 #### Defined in
 
-[src/interfaces/IReadonlyValueHolder.d.ts:11](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/IReadonlyValueHolder.d.ts#L11)
+[src/interfaces/IReadonlyValueHolder.d.ts:11](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/IReadonlyValueHolder.d.ts#L11)
 
 ## Methods
 
@@ -77,4 +77,4 @@ Gets the current value
 
 #### Defined in
 
-[src/interfaces/IReadonlyValueHolder.d.ts:16](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/IReadonlyValueHolder.d.ts#L16)
+[src/interfaces/IReadonlyValueHolder.d.ts:16](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/IReadonlyValueHolder.d.ts#L16)

@@ -51,7 +51,7 @@ Fired when the value is changed
 
 #### Defined in
 
-[src/interfaces/IReadonlyValueHolder.d.ts:11](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/IReadonlyValueHolder.d.ts#L11)
+[src/interfaces/IReadonlyValueHolder.d.ts:11](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/IReadonlyValueHolder.d.ts#L11)
 
 ## Methods
 
@@ -72,7 +72,7 @@ Any further calls to methods on the instance will throw errors.
 
 #### Defined in
 
-[src/interfaces/ILockableValueHolder.d.ts:11](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/ILockableValueHolder.d.ts#L11)
+[src/interfaces/ILockableValueHolder.d.ts:11](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/ILockableValueHolder.d.ts#L11)
 
 ___
 
@@ -92,7 +92,7 @@ Gets the current value
 
 #### Defined in
 
-[src/interfaces/IReadonlyValueHolder.d.ts:16](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/IReadonlyValueHolder.d.ts#L16)
+[src/interfaces/IReadonlyValueHolder.d.ts:16](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/IReadonlyValueHolder.d.ts#L16)
 
 ___
 
@@ -108,7 +108,7 @@ Checks whether the value holder is locked
 
 #### Defined in
 
-[src/interfaces/ILockableValueHolder.d.ts:16](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/ILockableValueHolder.d.ts#L16)
+[src/interfaces/ILockableValueHolder.d.ts:16](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/ILockableValueHolder.d.ts#L16)
 
 ___
 
@@ -128,7 +128,7 @@ The lock key object
 
 #### Defined in
 
-[src/interfaces/ILockableValueHolder.d.ts:23](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/ILockableValueHolder.d.ts#L23)
+[src/interfaces/ILockableValueHolder.d.ts:23](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/ILockableValueHolder.d.ts#L23)
 
 ___
 
@@ -137,6 +137,8 @@ ___
 ▸ **releaseLock**(`lockKey`): `void`
 
 Releases the lock
+
+**`throws`** Throws if not given the expected lock key
 
 #### Parameters
 
@@ -150,7 +152,7 @@ Releases the lock
 
 #### Defined in
 
-[src/interfaces/ILockableValueHolder.d.ts:29](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/ILockableValueHolder.d.ts#L29)
+[src/interfaces/ILockableValueHolder.d.ts:30](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/ILockableValueHolder.d.ts#L30)
 
 ___
 
@@ -159,6 +161,8 @@ ___
 ▸ **setValue**(`newValue`, `lockKey?`): `void`
 
 Changes the value and fires valueChanged if the new value is not equal to the current value
+
+**`throws`** Throws if not given the expected lock key while locked
 
 #### Parameters
 
@@ -173,7 +177,7 @@ Changes the value and fires valueChanged if the new value is not equal to the cu
 
 #### Defined in
 
-[src/interfaces/ILockableValueHolder.d.ts:36](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/ILockableValueHolder.d.ts#L36)
+[src/interfaces/ILockableValueHolder.d.ts:38](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/ILockableValueHolder.d.ts#L38)
 
 ___
 
@@ -191,7 +195,7 @@ The lock key object if successful, otherwise undefined
 
 #### Defined in
 
-[src/interfaces/ILockableValueHolder.d.ts:42](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/ILockableValueHolder.d.ts#L42)
+[src/interfaces/ILockableValueHolder.d.ts:44](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/ILockableValueHolder.d.ts#L44)
 
 ___
 
@@ -201,6 +205,8 @@ ___
 
 Calls the provided function and changes the value if the returned value is not equal to the current value
 If the value is changed, then valueChanged is fired
+
+**`throws`** Throws if not given the expected lock key while locked
 
 #### Parameters
 
@@ -215,4 +221,4 @@ If the value is changed, then valueChanged is fired
 
 #### Defined in
 
-[src/interfaces/ILockableValueHolder.d.ts:50](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/156ddd9/src/interfaces/ILockableValueHolder.d.ts#L50)
+[src/interfaces/ILockableValueHolder.d.ts:53](https://github.com/Bytebit-Org/roblox-ValueHolders/blob/5837c16/src/interfaces/ILockableValueHolder.d.ts#L53)
