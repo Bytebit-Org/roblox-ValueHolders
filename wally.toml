@@ -1,7 +1,7 @@
 [package]
 name = "bytebit/value-holders"
 description = "A module for passing any values around by sharing a pointer, as well as allowing consumers to subscribe to changes and allowing authors to hold locks on changing the value."
-version = "1.0.3"
+version = "1.0.4"
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
