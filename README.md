@@ -26,7 +26,7 @@ npm i @rbxts/value-holders
 ### Wally
 [Wally](https://github.com/UpliftGames/wally/) users can install this package by adding the following line to their `Wally.toml` under `[dependencies]`:
 ```
-ValueHolders = "bytebit/value-holders@1.0.4"
+ValueHolders = "bytebit/value-holders@1.0.5"
 ```
 
 Then just run `wally install`.
