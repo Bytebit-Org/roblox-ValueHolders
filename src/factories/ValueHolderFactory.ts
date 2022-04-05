@@ -1,4 +1,4 @@
-import { ValueHolder } from "classes/ValueHolder";
+import { ValueHolder } from "../classes/ValueHolder";
 
 /** @internal */
 export class ValueHolderFactory {

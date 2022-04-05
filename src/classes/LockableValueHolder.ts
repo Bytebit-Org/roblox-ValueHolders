@@ -1,10 +1,10 @@
 import { Bin } from "@rbxts/bin";
 import { assertNotDestroyed, warnAlreadyDestroyed } from "@rbxts/destroyed-instance-logging";
 import { IReadOnlySignal } from "@rbxts/signals-tooling";
-import { BinFactory } from "factories/BinFactory";
-import { ValueHolderFactory } from "factories/ValueHolderFactory";
-import { ILockableValueHolder } from "interfaces/ILockableValueHolder";
-import { IValueHolder } from "interfaces/IValueHolder";
+import { BinFactory } from "../factories/BinFactory";
+import { ValueHolderFactory } from "../factories/ValueHolderFactory";
+import { ILockableValueHolder } from "../interfaces/ILockableValueHolder";
+import { IValueHolder } from "../interfaces/IValueHolder";
 
 /**
  * Standard implementation of ILockableValueHolder

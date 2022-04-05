@@ -3,7 +3,7 @@
 /// <reference types="@rbxts/testez/globals" />
 
 import { HttpService, LogService } from "@rbxts/services";
-import { LockableValueHolder } from "classes/LockableValueHolder";
+import { LockableValueHolder } from "./LockableValueHolder";
 
 const DEFAULT_VALUE = HttpService.GenerateGUID();
 

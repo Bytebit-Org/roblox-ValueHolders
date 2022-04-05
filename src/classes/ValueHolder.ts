@@ -1,8 +1,8 @@
-import { IValueHolder } from "interfaces/IValueHolder";
+import { IValueHolder } from "../interfaces/IValueHolder";
 import { Bin } from "@rbxts/bin";
 import { ISignal } from "@rbxts/signals-tooling";
-import { BinFactory } from "factories/BinFactory";
-import { SignalFactory } from "factories/SignalFactory";
+import { BinFactory } from "../factories/BinFactory";
+import { SignalFactory } from "../factories/SignalFactory";
 import { assertNotDestroyed, warnAlreadyDestroyed } from "@rbxts/destroyed-instance-logging";
 
 /**

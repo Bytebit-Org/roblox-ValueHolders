@@ -1,4 +1,4 @@
-import { IReadonlyValueHolder } from "interfaces/IReadonlyValueHolder";
+import { IReadonlyValueHolder } from "./IReadonlyValueHolder";
 
 /**
  * Defines a lockable value holder
